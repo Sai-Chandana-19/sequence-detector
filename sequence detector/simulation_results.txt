@@ -1,0 +1,50 @@
+================================================
+1011 SEQUENCE DETECTOR SIMULATION RESULTS
+================================================
+
+TEST 1: Detect 1011
+----------------------------------------
+
+Input    Expected    Actual    Result
+----------------------------------------
+1        0           0         PASS
+0        0           0         PASS
+1        0           0         PASS
+1        1           1         PASS
+
+
+TEST 2: No Complete Sequence
+----------------------------------------
+
+Input    Expected    Actual    Result
+----------------------------------------
+1        0           0         PASS
+0        0           0         PASS
+0        0           0         PASS
+1        0           0         PASS
+
+
+TEST 3: Overlapping Sequence 1011011
+----------------------------------------
+
+Input    Expected    Actual    Result
+----------------------------------------
+1        0           0         PASS
+0        0           0         PASS
+1        0           0         PASS
+1        1           1         PASS
+0        0           0         PASS
+1        0           0         PASS
+1        1           1         PASS
+
+
+================================================
+FINAL RESULT
+================================================
+
+ALL TEST CASES PASSED
+
+Total Test Cases: 15
+Failed Test Cases: 0
+
+================================================
